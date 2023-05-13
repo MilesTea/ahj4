@@ -1,0 +1,70 @@
+.button {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+    padding: 6px 12px;
+    touch-action: manipulation;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cards {
+    padding-left: 0;
+    list-style: none;
+    height: 25px;
+}
+.card {
+    float: left;
+    width: 39px;
+    height: 25px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    margin-right: 4px;
+}
+
+.card_disabled {
+    background-position: 0 -25px;
+    opacity: .3;
+}
+
+.card_status {
+    margin-top: 10px;
+}
+
+.card_good {
+    width: 200px;
+    height: 200px;
+    background-image: url("pics/accept.png");
+    background-size: cover;
+}
+
+.card_bad {
+    width: 200px;
+    height: 200px;
+    background-image: url("pics/remove.png");
+    background-size: cover;
+}
+
+.visa {
+    background-image: url("pics/card-visa.gif");
+}
+
+.master {
+    background-image: url("pics/card-mastercard.gif");
+}
+
+.amex {
+    background-image: url("pics/card-amex.gif");
+}
+
+.discover {
+    background-image: url("pics/card-discover.gif");
+}
+
+.jcb {
+    background-image: url("pics/card-jcb.gif");
+}
+
+.diners {
+    background-image: url("pics/card-diners.gif");
+}
